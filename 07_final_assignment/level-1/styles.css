@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Open Sans");
+/* Remove all margins and paddings */
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  background-color: #c3cfe2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.testimonial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  -webkit-transform: translate(50%, 50%);
+          transform: translate(50%, 50%);
+}
+
+.testimonial__text {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.25);
+}
+
+.testimonial__text p {
+  padding: 30px 30px 80px 30px;
+  color: #666666;
+  font-size: 20px;
+  line-height: 1.8em;
+}
+
+.testimonial__footer {
+  background-color: #686de0;
+  border-radius: 0 0 20px 20px;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+.testimonial__footer img {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  height: 120px;
+  width: 120px;
+  margin-top: -100px;
+}
+
+.testimonial__footer h1 {
+  margin: 10px 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.testimonial__footer a {
+  color: #adb0ea;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=styles.css.map */

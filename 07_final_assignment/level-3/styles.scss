@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
+/* Remove all margins and paddings */
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background-color: #c3cfe2;
+	font-family: 'Open Sans', sans-serif;
+}
+.social {
+	position: absolute;
+	width: 300px;
+    bottom: 50%;
+    right: 0%;
+    transform: translate(240px, 50%);
+	&__button {
+		height: 60px;
+		color: #ffffff;
+		& a {
+			color: #ffffff;
+		}
+		&:hover {
+			margin-left: -200px;
+			transition: margin-left 400ms ease-in-out;
+		}
+		&--blog {
+			background-color: #e17b77;
+		}
+		&--twitter {
+			background-color: #00aced;
+		}
+		&--linkedin {
+			background-color: #007bb6;
+		}
+		&--facebook {
+			background-color: #3b5998;
+		}
+		&--github {
+			background-color: #333;
+		}
+		&::before {
+			display: inline-block;
+			width: 20px;
+			font-size: 20px;
+			text-align: center;
+			padding: 20px 20px;
+		}
+		&--blog::before {
+			font-family: "Font Awesome 5 Free"; 
+			font-weight: 900; 
+			content: "\f5fc";
+		}
+		&--twitter::before {
+			font-family: "Font Awesome 5 Brands"; 
+			content: "\f099";
+		}
+		&--linkedin::before {
+			font-family: "Font Awesome 5 Brands"; 
+			content: "\f0e1";
+		}
+		&--facebook::before {
+			font-family: "Font Awesome 5 Brands"; 
+			content: "\f39e";
+		}
+		&--github::before {	
+			font-family: "Font Awesome 5 Brands"; 
+			font-weight: 400; 
+			content: "\f09b";
+		}
+	}
+}

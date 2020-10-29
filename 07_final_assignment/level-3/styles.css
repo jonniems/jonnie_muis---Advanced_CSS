@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Open Sans");
+/* Remove all margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #c3cfe2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.social {
+  position: absolute;
+  width: 300px;
+  bottom: 50%;
+  right: 0%;
+  -webkit-transform: translate(240px, 50%);
+          transform: translate(240px, 50%);
+}
+
+.social__button {
+  height: 60px;
+  color: #ffffff;
+}
+
+.social__button a {
+  color: #ffffff;
+}
+
+.social__button:hover {
+  margin-left: -200px;
+  -webkit-transition: margin-left 400ms ease-in-out;
+  transition: margin-left 400ms ease-in-out;
+}
+
+.social__button--blog {
+  background-color: #e17b77;
+}
+
+.social__button--twitter {
+  background-color: #00aced;
+}
+
+.social__button--linkedin {
+  background-color: #007bb6;
+}
+
+.social__button--facebook {
+  background-color: #3b5998;
+}
+
+.social__button--github {
+  background-color: #333;
+}
+
+.social__button::before {
+  display: inline-block;
+  width: 20px;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.social__button--blog::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f5fc";
+}
+
+.social__button--twitter::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f099";
+}
+
+.social__button--linkedin::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f0e1";
+}
+
+.social__button--facebook::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f39e";
+}
+
+.social__button--github::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  content: "\f09b";
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
+/* Remove all margins and paddings */
+* 
+{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+	background-color: #c3cfe2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.testimonial {
+    display: flex; 
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+    &__text {
+        width: 400px;
+        background-color: #fff;
+        border-radius: 20px;
+        -webkit-box-shadow: 0px 10px 20px 5px rgba(0,0,0,0.25); 
+        box-shadow: 0px 10px 20px 5px rgba(0,0,0,0.25);
+    }
+    &__text p {
+        padding: 30px 30px 80px 30px;
+        color: #666666;
+        font-size: 20px;
+        line-height: 1.8em;
+    }
+    &__footer {
+        background-color: #686de0;
+        border-radius: 0 0 20px 20px;
+        color: #fff;
+        padding: 40px;
+        text-align: center;
+    }
+    &__footer img {
+        border-radius: 50%;
+        border: 5px solid #fff;
+        height: 120px;
+        width: 120px;
+        margin-top: -100px;
+    }
+    &__footer h1 {
+        margin: 10px 0;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    &__footer a {
+        color: #adb0ea;
+        text-decoration: none;
+        letter-spacing: 1px;
+    }
+}
