@@ -96,6 +96,7 @@ body {
 
 @media screen and (min-width: 1024px) {
   .portfolio {
+    max-width: 1100px;
     margin: 1% 0 1% 1%;
   }
   .portfolio__image {
